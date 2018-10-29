@@ -1,0 +1,146 @@
+/* NavBar styles */
+
+.navbar {
+	background-color: rgba(255,255,255,0.4);
+	padding: 13px;
+}
+
+.navbar a.content {
+	text-decoration: none;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+ 	padding-left: 10px;
+	font-size: 19px;
+	text-align: right;
+}
+
+.navbar a.content:hover {
+	background-color: #E2A123;
+	color: white;
+	padding: 18px;
+}
+
+a.name {
+	padding-left: 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.7em;
+	background-color:#E2A123;
+	padding: 25px;
+	margin-right: 410px;
+}
+
+/*body styles */
+
+h2 {
+	text-align: center;
+	padding-top: 15px;
+	font-weight: bold;
+	font-size: 28px;
+	margin-bottom: auto;
+	font-family: 'Montserrat', sans-serif;
+	border-bottom: solid #E2A123 5px;
+	padding-bottom: 12px;
+}
+/* styles on the index page background */
+.about {
+	background-color: rgba(255,255,255,0.4);
+	width: 960px;
+	margin: auto;
+	height: 450px;
+	font-family: 'Montserrat', sans-serif;
+	word-spacing: 4px; 
+	line-height: 23px
+}
+
+
+.picture {
+	margin-top: 25px;
+	align-content: center;
+	margin-left: 35px;
+	float: left;
+	margin-right: 15px;
+	
+}
+
+.firstpar {
+	padding-top: 25px;
+}
+
+p {
+	padding-right: 10px;
+	padding-left: 15px;
+}
+
+/* style for the portfolio section */
+
+.portfolio {
+	background-color: rgba(255,255,255,0.4);
+	width: 960px;
+	margin: auto;
+	height: 550px;
+}
+
+/* style for the contact section */
+
+.contact {
+	background-color: rgba(255,255,255,0.4);
+	width: 960px;
+	margin: auto;
+	height: 500px;
+}
+
+.formRow {
+	text-align: center;
+	margin-bottom: 15px;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 10px;
+}
+
+textarea {
+	margin-top: 10px;
+	height: 170px;
+	width: 50%;
+	margin: auto;
+}
+
+#name {
+	width: 200px;
+}
+
+#email {
+	width: 200px;
+}
+.portimg {
+	margin-left: 100px;
+	margin-top: 15px;
+}
+.box {
+    float: left;
+    position: relative;
+    width: 200px;
+	height: 230px;
+}
+.boxtext {
+    position: absolute;
+    bottom: 40px;
+	font-size: 20px;
+	background-color: white;
+	width: 150px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 100px;
+}
+
+/* footer styles */
+.footer {
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255,255,255,0.4);
+    color: black;
+    text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
